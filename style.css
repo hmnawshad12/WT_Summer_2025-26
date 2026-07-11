@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(135, 192, 123);
+}
+header {
+    background-color:cornsilk;
+    color: black;
+    text-align: center;
+    padding: 25px;
+}
+nav {
+    background-color:rgb(178, 218, 76);
+    text-align: center;
+    padding: 20px;
+}
+nav a {
+    color: rgb(4, 0, 0);
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+nav a:hover {
+    color:blueviolet;
+}
+main {
+    padding: 30px;
+}
+.description {
+    margin-bottom: 50px;
+}
+.form-section {
+    display:flex;
+    justify-content:center;
+}
+
+form {
+    background-color: white;
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+    padding: 25px;
+    width: 450px;
+}
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(244, 6, 6);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.radio-group {
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.radio-group input {
+    width: auto;
+}
+.radio-group label {
+    display: inline;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color:rgb(38, 182, 178);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:chocolate;
+}
+
+footer {
+    background-color: cornsilk;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
